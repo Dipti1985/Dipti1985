@@ -1,0 +1,26 @@
+public Srting name;
+    public int age;
+    public float hight;
+
+    public void setValue(String n,int a,float h) {
+        name=n;
+        age=a;
+        hight = h;
+    }
+    public void display()
+    {
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(hight);
+
+    }
+    class Set
+    {
+        public static void main(String[] args) {
+            Get g=new Get();
+            {
+                g.setValue("Deep",34,12.24f);
+                g.display();
+            }
+
+        }
